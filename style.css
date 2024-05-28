@@ -1,0 +1,129 @@
+body {
+  font-family: verdana, arial;
+  font-size: 16px;
+}
+
+#selectHolder {
+  position: relative;
+  top: 80px;
+  left: 405px;
+  text-align: center;
+}
+
+#selecteren {
+  background: #2196F3;
+  color: #BBDEFB;
+  padding: 5px 1px 5px 20px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#gooi {
+  display: inline;
+}
+
+#gooi button {
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 2px;
+  background: #2196F3;
+}
+
+/* uitleg opmaak */
+#explain {
+  background: #2196F3;
+  color: #BBDEFB;
+  height: 300px;
+  width: 900px;
+  padding: 20px;
+  margin: 100px auto;
+  
+}
+/* laat spel verdwijnen */
+#invisible {
+  display: none;
+  position: relative;
+  top: 110px;
+}
+
+#placeHldDbs {
+  background: lightblue;
+  width: 910px;
+  padding: 15px;
+  margin: -10px auto;
+}
+
+#aligned div {
+  display: inline;
+  margin: 0px 130px;
+  position: relative;
+  right: 90px;
+  
+}
+
+#bgAnswers {
+  background: #2196F3;
+  color: #BBDEFB;
+  font-size: 16px;
+  height: 100px;
+  width: 940px;
+  margin: 0px auto; 
+}
+
+#Answers {
+  margin-top: 20px;
+  position: relative;
+  left: 100px;
+  top:20px
+}
+
+#Answers input {
+  width: 20px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+
+#placeHldRa {
+  background: #BBDEFB;
+  width: 940px;
+  height: 80px;
+  margin: 10px auto 0px auto;
+}
+
+#reportAnswer {
+  width: 400px;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 275px;
+  color:#2196F3;
+}
+#holdButton {
+  text-align: center;
+}
+
+#check button{
+  background: #2196F3;
+  color: #BBDEFB;
+  font-size: 20px;
+  width: 940px;
+  height: 50px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+#resetShow button {
+  background: #BBDEFB;
+  color: #2196F3;
+  font-size: 20px;
+  width: 940px;
+  height: 50px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
